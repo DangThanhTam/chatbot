@@ -38,10 +38,10 @@ submitBtn.addEventListener('click', ()=>{
 
 function bot_say(data){
   let answer = "";
-  if (data === "how are you?") {
+  if (data === "Hi") {
+    answer = "Nice to meet you";
+  }else if (data === "How are you?") {
     answer = "Fine";
-  }else if (data === "y") {
-    answer = "x";
   }else{
     answer = "I dont understand";
   }

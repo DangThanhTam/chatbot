@@ -57,17 +57,17 @@ p{
 .chat-popup{
     display: none;
     position: fixed;
-    bottom:80px;
-    right:120px;
-    height: 400px;
-    width: 300px;
+    bottom:100px;
+    right:250px;
+    height:600px;
+    width: 400px;
     background-color: white;
     /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
     padding: 0.75rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .show{
